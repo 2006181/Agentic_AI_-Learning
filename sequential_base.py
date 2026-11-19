@@ -17,7 +17,7 @@ from langchain_groq import ChatGroq
 
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
-    temperature=0
+    temperature=0.7
 )
 
 def editor_node(state: pipeline_state) -> dict:
