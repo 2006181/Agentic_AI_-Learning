@@ -84,3 +84,8 @@ faiss_index/
 *.bak
 temp/
 tmp/
+.env
+venv/
+__pycache__/
+.streamlit/secrets.toml
+
